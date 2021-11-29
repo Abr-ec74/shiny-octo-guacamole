@@ -1,0 +1,295 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* cormorant-garamond-regular - cyrillic */
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/cormorant-garamond-v10-cyrillic-regular.woff2")
+      format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/cormorant-garamond-v10-cyrillic-regular.woff")
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* merriweather-regular - latin_cyrillic */
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/merriweather-v25-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/merriweather-v25-latin_cyrillic-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/merriweather-v25-latin_cyrillic-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/merriweather-v25-latin_cyrillic-regular.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/merriweather-v25-latin_cyrillic-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/merriweather-v25-latin_cyrillic-regular.svg#Merriweather")
+      format("svg"); /* Legacy iOS */
+}
+/* merriweather-italic - latin_cyrillic */
+@font-face {
+  font-family: "Merriweather";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/merriweather-v25-latin_cyrillic-italic.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/merriweather-v25-latin_cyrillic-italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/merriweather-v25-latin_cyrillic-italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/merriweather-v25-latin_cyrillic-italic.woff") format("woff"),
+    /* Modern Browsers */
+      url("../fonts/merriweather-v25-latin_cyrillic-italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/merriweather-v25-latin_cyrillic-italic.svg#Merriweather")
+      format("svg"); /* Legacy iOS */
+}
+/* open-sans-regular - latin_cyrillic */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/open-sans-v27-latin_cyrillic-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/open-sans-v27-latin_cyrillic-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-700 - latin_cyrillic */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("../fonts/open-sans-v27-latin_cyrillic-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/open-sans-v27-latin_cyrillic-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.body {
+}
+
+/* Start styles header */
+.header {
+  padding-top: 59px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.header_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.heaeder_logo {
+  margin-right: 45px;
+}
+
+.header_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header_item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 70px;
+}
+
+.header_item:last-child {
+  margin: 0;
+}
+.header_link {
+  font-family: Garamond;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 27px;
+  color: #131513;
+  text-decoration: none;
+}
+
+.header_link:hover,
+.header_link:active,
+.header_link:focus {
+  opacity: 0, 75;
+  color: rgb(158, 130, 130);
+}
+/* Finish styles header */
+
+/* Start styles mainbaner */
+
+.main_baner {
+  padding-top: 256px;
+  position: relative;
+  width: 100%;
+}
+
+h1 {
+  position: absolute;
+  width: 958px;
+  height: 105px;
+  left: 518px;
+  top: 289px;
+
+  font-family: Merriweather;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+/* Finish styles baner */
