@@ -210,8 +210,6 @@ html {
   box-sizing: inherit;
 }
 
-.body {
-}
 
 /* Start styles header */
 .header {
@@ -271,13 +269,14 @@ html {
 }
 /* Finish styles header */
 
-/* Start styles mainbaner */
+/* Start styles main_baner */
 
 .main_baner {
   /* padding-top: 256px;*/
   position: relative;
   width: 100%;
   margin-bottom: 113px;
+  margin: 0 auto;
 }
 
 .main_baner-img {
@@ -301,6 +300,11 @@ html {
   top: 552px;
 }
 
+.main_prof-nav {
+	width: 1920px;
+	margin: 0 auto;
+}
+
 .main_title-baner {
   font-family: Merriweather;
   font-style: italic;
@@ -310,7 +314,9 @@ html {
   letter-spacing: 0.03em;
   color: #fff;
 }
+/* Finish styles baner */
 
+/*Start styles main_prof-training */
 .main_prof-title {
   font-family: Garamond;
   font-style: normal;
@@ -322,18 +328,21 @@ html {
   margin-bottom: 94px;
   color: #0b0e0a;
 }
-.main_prof-training {
+/*.main_prof-training {
   display: flex;
   flex-wrap: wrap;
-}
+}*/
 .main_prof-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 317px;
   width: auto;
 }
 
 .main_prof-item {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 317px;
 }
 .main_prof-img {
   margin-bottom: 14px;
@@ -349,4 +358,60 @@ html {
   text-decoration: none;
 }
 
-/* Finish styles baner */
+/*Finfsh styles main_prof-training */
+
+/*Start styles education */
+
+.education {
+  max-width: 1920px;
+  background: url(../img/forest.jpg) no-repeat center;
+  background-size: cover;
+  margin-bottom: 1084px;
+  
+}
+
+.education_title,
+.education_wrapper-contion {
+  font-family: Garamond;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 54px;
+  margin: 0 auto;
+  color: #0b0e0a;
+}
+.education_title {
+  max-width: 1920px;
+  max-height: 950px;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+.last
+
+.education_wrapper-contion {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 54px;
+}
+
+/*Finfsh styles education */
+
+/*Start styles section_map */
+.section_map {
+	max-width: 1920px;
+	height: 600px;
+	background: url(../img/map.jpg) no-repeat center;
+	background-size: cover;
+}
+
+/*Finfsh styles section_map */
+.body {
+    max-width: 1920px;
+	margin: 0 auto;
+
+}
