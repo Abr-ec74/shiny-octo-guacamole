@@ -415,11 +415,14 @@ html {
 .education{
 	height: 1050px;
 	margin: 0 auto;
-
+	margin-bottom: 120px;
+	
 }
+
 .education_wrapper-contion{
 	width: 1050px;
 	margin: 0 auto;
+	margin-bottom: 565px;
 }
 
 
@@ -430,6 +433,10 @@ html {
 	font-size: 26px;
 	line-height: 35px;
 	margin-bottom: 50px;
+}
+.down {
+	margin-bottom: 275px;
+
 }
 
 .education_wrapper-contion-down{
@@ -446,14 +453,15 @@ html {
 .section_map {
 	margin: 0 auto;
 	max-width: 1920px;
-	height: 600px;
+	height: 650px;
 	background: url(../img/map.jpg) no-repeat center;
 	background-size: cover;
 }
+.color-training {
+	color: #F6F0F0;
+}
+.top {
+	padding-top: 24px;
+}
 
 /*Finfsh styles section_map */
-/*.body {
-    max-width: 1920px;
-	margin: 0 auto;
-
-}
