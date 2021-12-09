@@ -211,32 +211,9 @@ html {
 }
 
 /* Start styles header */
-/*.header {
-  padding-top: 59px;
-  width: 100%;
-}
-.wrapper {
-  max-width: 1060px;
-  margin: 0 auto;
-}
-.header_wrapper {
-  height: 100px;
-  margin-bottom: 97px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding-top: 59px;
-  width: 100%;
-}
 
-.heaeder_logo {
-  margin-right: 45px;
-  margin-bottom: 97px;
-}
-*/
-/*работа над ошибками*/
 
-.header_logo {
+.header__logo {
   width: 1060px;
   display: flex;
   flex-wrap: wrap;
@@ -246,16 +223,16 @@ html {
   margin-top: 60px;
   margin-bottom: 97px;
 }
-.header_logo-link {
+.header__logo-link {
   margin-right: 44px;
 }
-.header_list {
+.header__list {
   display: flex;
   flex-wrap: wrap;
 }
-.header_item {
+.header__item {
 }
-.header_link {
+.header__link {
   margin-right: 70px;
   font-family: Garamond;
   font-style: normal;
@@ -265,13 +242,13 @@ html {
   color: #131513;
   text-decoration: none;
 }
-.header_item:last-child {
+.header__item:last-child {
   margin-right: 12px;
 }
 
-.header_link:hover,
-.header_link:active,
-.header_link:focus {
+.header__link:hover,
+.header__link:active,
+.header__link:focus {
   opacity: 0, 75;
   color: rgb(158, 130, 130);
 }
@@ -280,19 +257,19 @@ html {
 
 /* Start styles main_baner */
 
-.main_baner {
+.main__baner {
   width: 1920px;
   margin: 0 auto;
   margin-bottom: 113px;
   position: relative;
 }
 
-.main_baner-img {
+.main__baner-img {
   width: auto;
   margin: 0 auto;
 }
 
-.main_title-top {
+.main__title-top {
   position: absolute;
   width: 100%;
   height: 105px;
@@ -300,7 +277,7 @@ html {
   top: 33px;
 }
 
-.main_title-down {
+.main__title-down {
   position: absolute;
   width: 100%;
   height: 105px;
@@ -308,12 +285,12 @@ html {
   top: 552px;
 }
 
-.main_prof-nav {
+.main__prof-nav {
   width: 1920px;
   margin: 0 auto;
 }
 
-.main_title-baner {
+.main__title-baner {
   font-family: Merriweather;
   font-style: italic;
   font-weight: normal;
@@ -325,7 +302,7 @@ html {
 /* Finish styles baner */
 
 /*Start styles main_prof-training */
-.main_prof-title {
+.main__prof-title {
   font-family: Garamond;
   font-style: normal;
   font-weight: bold;
@@ -336,28 +313,28 @@ html {
   margin-bottom: 94px;
   color: #0b0e0a;
 }
-.main_prof-training {
+.main__prof-training {
   width: 1920px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
 
-.main_prof-list {
+.main__prof-list {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
 }
 
-.main_prof-item {
+.main__prof-item {
   padding: 0 180px;
   display: grid;
 }
-.main_prof-img {
+.main__prof-img {
   margin-bottom: 14px;
 }
 
-.main_prof-link {
+.main__prof-link {
   font-family: Garamond;
   font-style: normal;
   font-weight: bold;
@@ -368,9 +345,9 @@ html {
   text-decoration: none;
   margin-bottom: 118px;
 }
-.main_prof-link:hover,
-.main_prof-link:active,
-.main_prof-link:focus {
+.main__prof-link:hover,
+.main__prof-link:active,
+.main__prof-link:focus {
   opacity: 0, 75;
   color: rgb(158, 130, 130);
 }
@@ -387,8 +364,8 @@ html {
   margin-bottom: 1084px;
 }
 
-.education_title,
-.education_wrapper-contion {
+.education__title,
+.education__wrapper-contion {
   font-family: Garamond;
   font-style: normal;
   font-weight: normal;
@@ -397,7 +374,7 @@ html {
   margin: 0 auto;
   color: #0b0e0a;
 }
-.education_title {
+.education__title {
   max-width: 1920px;
   max-height: 950px;
   margin: 0 auto;
@@ -414,13 +391,13 @@ html {
   margin-bottom: 120px;
 }
 
-.education_wrapper-contion {
+.education__wrapper-contion {
   width: 1050px;
   margin: 0 auto;
   margin-bottom: 565px;
 }
 
-.education_wrapper-contion {
+.education__wrapper-contion {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
@@ -432,7 +409,7 @@ html {
   margin-bottom: 275px;
 }
 
-.education_wrapper-contion-down {
+.education__wrapper-contion-down {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
@@ -443,7 +420,7 @@ html {
 /*Finfsh styles education */
 
 /*Start styles section_map */
-.section_map {
+.section__map {
   margin: 0 auto;
   max-width: 1920px;
   height: 650px;
@@ -462,12 +439,12 @@ html {
 
 /*Start styles reviews */
 
-.reviews_title-wrepper {
+.reviews__title-wrepper {
   width: 1012px;
   margin: 0 auto;
   display: flex;
 }
-.reviews_title {
+.reviews__title {
   width: 1012px;
   margin: 0 auto;
   display: flex;
@@ -513,7 +490,7 @@ html {
   width: 1055px;
   margin: 0 auto;
 }
-.footer_wrapper {
+.footer__wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -523,7 +500,7 @@ html {
 .fone {
   display: flex;
 }
-.footer_logo-item {
+.footer__logo-item {
 	margin-right: 24px;
 }
 
@@ -539,10 +516,10 @@ html {
   margin-right: 350px;
 }
 
-.footer_logo-link {
+.footer__logo-link {
   margin-left: 30px;
 }
-.footer_logo-link:last-child {
+.footer__logo-link:last-child {
 	margin-right: 0px;
   }
   
