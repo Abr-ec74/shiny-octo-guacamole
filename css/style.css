@@ -308,8 +308,8 @@ html {
   font-weight: bold;
   font-size: 48px;
   line-height: 54px;
-  max-width: 780px;
-  margin: 0 auto;
+  max-width: 1920px;
+   margin: 0 auto;
   margin-bottom: 94px;
   color: #0b0e0a;
 }
@@ -539,3 +539,84 @@ html {
   }
   
 /*Finfsh styles footer */
+
+/*Start styles pagina 2 question */
+
+.question {
+	max-width: 1920px;
+	min-height: 657px;
+	margin: 0 auto;
+	background: url(../img/mountains.jpg) no-repeat center;
+	background-size: cover;
+	margin-bottom: 105px;
+  }
+
+ .question__title {
+	text-align: center;
+	margin-bottom: 65px; 
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 140.69%;
+ }
+
+ .question__wrapper-contion {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 39px;
+	text-align: center;
+	letter-spacing: 0.025em;
+	font-variant: small-caps;
+	margin-bottom: 45px;
+ }
+
+ .question__wrapper-contion-down {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 39px;
+	text-align: center;
+	letter-spacing: 0.025em;
+	font-variant: small-caps;
+	margin-bottom: 130px;
+ }
+
+ .textcolor {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 140.69%;
+	text-align: center;
+	letter-spacing: 0.025em;
+	font-variant: small-caps;
+	color: #FF0000
+ }
+
+  /*Finfsh styles pagina 2 question */
+
+  /*Start styles pagina 2 categories */
+
+  .categories__title {
+	font-family: Garamond;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 54px;
+	text-align: center;
+
+  }
+.text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+}
+
+ /*Finfsh styles pagina 2 categories */
